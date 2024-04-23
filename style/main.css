@@ -1,0 +1,396 @@
+/* HEADER */
+
+header .head_position {
+    background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu {
+    margin: auto 0.2em auto;
+}
+
+header .menu a {
+    font-size: 1.5em;
+    font-family: "Comic sans MS", Impact, sans-serif;
+    border: 2px solid black;
+    border-radius: 2em;
+    padding: 0.1em 0.3em;
+    color: black;
+    text-decoration: none;
+}
+
+header .menu a:hover {
+    background-color: lightblue;
+}
+
+header img {
+    width: 3em;
+    height: 3em;
+}
+
+
+
+/* SECTION HOME_PRESENTATION */
+
+.home_presentation {
+    background-image: url("https://images.unsplash.com/photo-1562306382-bd835cde5ad5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 40%;
+}
+
+.home_presentation-text h1 {
+    font-size: 4em;
+    font-family: Impact, Arial, sans-serif;
+    padding: 8rem 0 2rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.home_presentation-text p {
+    font-family: "Comic sans MS", Impact, sans-serif;
+    margin: 0 15em;
+    font-size: 2em;
+}
+
+.home_presentation-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12rem;
+}
+
+.home_presentation a {
+    color: black;
+    text-decoration: none;
+}
+
+.home_presentation-button-our_story, .home_presentation-button-contact_us {
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 5px 15px;
+    margin: 20px;
+    font-weight: bold;
+    background-color: #13ffea;
+}
+
+.home_presentation-button a:hover {
+    background-color: #0edcca;
+}
+
+.home_presentation-icons {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 10rem;
+}
+
+.home_presentation-icons img {
+    margin: 0 4rem;
+    opacity: 60%;
+}
+
+.home_presentation-icons img:hover {
+    opacity: 100%;
+}
+
+.hiking, .camping, .kayak, .rest_area {
+    display: flex;
+    flex-direction: column;
+}
+
+.hiking p, .camping p, .kayak p, .rest_area p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+/* SECTION HOME_DISCOVERY */
+
+.home_discovery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    background-color: white;
+    width: 55%;
+    margin: 10px auto;
+}
+
+.home_discovery-text { 
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px 50px 20px;
+}
+
+.home_discovery h1 {
+    font-size: 2.5rem;
+    font-family: "Arial Black", Impact, sans-serif;
+}
+
+.home_discovery-text p {
+    font-size: 1.3rem;
+    padding: 20px 0px 40px 0px;
+    font-family: "Comic sans MS", Impact, sans-serif;
+}
+
+.home_discovery-button a {
+    border: 2px solid black;
+    border-radius: 3rem;
+    background-color: #b69b6d;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.home_discovery-button a:hover {
+    background-color: grey;
+}
+
+.home_discovery-portrait_image {
+    grid-area: 1 / 2 / 3 / 3;
+}
+
+.home_discovery-gallery {
+    grid-area: 2 / 1 / 3 / 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.home_discovery-gallery img {
+    height: 9rem;
+    width: 9rem;
+    align-self: flex-end;
+    padding-bottom: 5px;
+}
+
+
+
+/* SECTION HOME_SERVICES */
+
+.home_services {
+    background-image: url("https://res.cloudinary.com/eurocamp/image/upload/camping-austria-hero.jpg");
+    background-size: 100% 70%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.home_services-sport {
+    display: flex;
+    justify-content: center;
+}
+
+.home_services-text {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    margin: 6rem 0 0;
+    font-family: Impact, sans-serif;
+}
+
+.home_services-sport div {
+    border: 3px solid black;
+    background-color: white;
+    text-align: center;
+    width: 9%;
+    padding: 20px 15px;
+    margin: 5rem 2rem 2rem;
+}
+
+.home_services-sport div h1 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 5px 0 20px 0;
+    font-family: "Arial Black", Impact, sans-serif;
+}
+
+.home_services-sport div p {
+    margin: 5px 0 20px 0;
+    font-family: "Comic sans MS", Impact, sans-serif;
+}
+
+.home_services-sport div a {
+    color: black;
+    font-weight: bold;
+}
+
+.home_services-sport div a:hover {
+    color: green;
+}
+
+.home_services img {
+    height: 10rem;
+    width: 10rem;
+}
+
+
+
+/* SECTION HOME_CONTACTUS */
+
+.home_contactus {
+    background-image: url("https://images.unsplash.com/photo-1502444330042-d1a1ddf9bb5b?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 55%;
+    display: flex;
+    justify-content: center;
+}
+
+.home_contactus-text, .home_contactus-form {
+    width: 20%;
+    margin: 15rem 3rem 23.35rem;
+    padding: 20px;
+}
+
+.home_contactus-text h1 {
+    font-size: 2.8rem;
+    padding-bottom: 40px;
+    font-family: Impact, Arial, sans-serif;
+    color: white;
+    font-family: "Arial Black", Impact, sans-serif;
+}
+
+.home_contactus-text p {
+    font-family: Calibri, Impact, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.home_contactus-form .identity {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_contactus-form .mail, .home_contactus-form .name, .home_contactus-form .message {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0;
+}
+
+.home_contactus-form label {
+    font-family: Calibri, Impact, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.home_contactus-form a {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 2em;
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    text-decoration: none;
+    padding: 0.5em 2em;
+}
+
+.home_contactus-form a:hover {
+    background-color: green;
+}
+
+
+/* --------------------------------------------------- */
+
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+
+    /* RESPONSIVE HOME_PRESENTATION */
+    .home_presentation-text p {
+        margin: auto 1rem;
+    }
+
+    .home_presentation-icons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home_presentation-icons img {
+        margin: 0 0.3rem;
+    }
+
+    .home_presentation-button {
+        margin: 0 0 3em 0;
+    }
+
+
+
+    /* RESPONSIVE HOME_DISCOVERY */
+    .home_discovery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0;
+        grid-row-gap: 10px;
+        background-color: white;
+    }
+
+    .home_discovery-portrait_image img {
+        display: none;
+    }
+
+    .home_discovery-gallery {
+        display: flex;
+        flex-wrap: ;
+    }
+
+
+
+    /* RESPONSIVE HOME_SERVICES */
+    .home_services-sport div {
+        border: 2px solid black;
+        width: 25%;
+        padding: 0.5rem;
+        margin: 1rem;
+
+    }
+
+    .home_services-sport img {
+        height: 6em;
+        width: 6em;
+    }
+
+    .home_services-sport div h1 {
+        font-size: 0.7rem;
+        text-decoration: underline;
+    }
+
+    .home_services-sport div p {
+        font-size: 0.7rem;
+    }
+
+    .home_services-text {
+        margin: 1.5em 0 0;
+    }
+
+
+
+    /* RESPONSIVE HOME_CONTACTUS */
+    .home_contactus {
+        display: flex;
+        flex-direction: column;
+        background-position: 100% 40%;
+    }
+
+    .home_contactus-text {
+        width: 80%;
+        margin: 8em auto 1em;
+    }
+
+    .home_contactus-form .mail, .home_contactus-form .name, .home_contactus-form .message {
+        color: white;
+    }
+
+    .home_contactus-form {
+        width: 80%;
+        margin: 5em auto 7.55em;
+    }
+}

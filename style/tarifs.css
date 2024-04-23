@@ -1,0 +1,95 @@
+body {
+    background-image: url("https://t4.ftcdn.net/jpg/02/95/53/29/360_F_295532927_AWtp3ZPLcUCEcRv2dOqVWtsBFCTExs3y.jpg");
+}
+
+.table_price {
+    display: flex;
+    justify-content: center;
+    margin: 8em 0em;
+}
+
+.table_price th {
+    width: 6em;
+    font-size: 2.5em;
+    padding: 0.5em;
+    border-radius: 5em;
+}
+
+.table_price td {
+    border-radius: 20em;
+    background-color:#EBF1DE;
+    padding: 1em;
+    text-align: center;
+}
+
+tr img {
+    height: 2em;
+    width: 2em;
+}
+
+.price {
+    font-size: 2em;
+}
+
+.description {
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    vertical-align: middle;
+}
+
+.table_price .tarif {
+    border: none;
+    font-weight: bold;
+    border: 3px solid black;
+}
+
+.table_price .bronze {
+    background-color: #705d29;
+}
+
+.table_price .argent {
+    background-color: #868992;
+}
+
+.table_price .gold {
+    background-color: #dfc76c;
+}
+
+.table_price .platinum {
+    background-color: #acb2ac;
+}
+
+.table_price .diamond {
+    background-color: #b9f2ff;
+}
+
+
+/* ---------------------------------------- */
+
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+    .table_price td {
+        padding: 0.5em;
+    }
+
+    .table_price th {
+        font-size: 1.5em;
+        padding: 0;
+        margin: 0;
+    }
+
+    .description {
+        font-size: 0.8em;
+    }
+
+    tr img {
+        height: 1.5em;
+        width: 1.5em;
+    }
+
+    .tarif {
+        vertical-align: middle;
+    }
+}
